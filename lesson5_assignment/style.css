@@ -40,8 +40,6 @@ h3 {
 	border-bottom-style: inset;
 	border-bottom-color: #3486FF;
 	padding: 4px 0;
-	font-variant: small-caps;
-	font-style: italic;
 }
 
 /* link styles ---------------------------- */
@@ -62,7 +60,7 @@ a:hover {
 /* list styles ----------------------------- */
 ul li {
 	list-style-image: url(images/star.png);
-	margin-left: 12px;
+	margin: 12px;
 }
 ol {
 	margin-left: 14px;
@@ -77,7 +75,7 @@ td {
 	border: solid #C530E8 1px;
 }
 th {
-	font-weight: bold;
+	font-weight: bolder;
 	background-color: #9D9DE8;
 	text-align: center;
 	padding: 6px;

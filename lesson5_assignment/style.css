@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document created by Marie Davis, Spring 2019*/
+
+body {
+	font-family: Verdana, Arial, Times, serif;
+	font-size: 14px;
+	line-height: 1.6em;
+	color: #000fff;
+	background-color: #9D9DE8;
+	padding: 0 30px;
+	margin: 10px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #3B2E36;
+	
+}
+h1 {
+	text-align: center;
+	font-size: 35px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #8D41FF;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #3486FF;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #3486FF;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #9B9744;
+	text-decoration: none;
+}
+a:hover {
+	color: #C530E8;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #9D9DE8 1px;
+}
+td {
+	padding: 6px;
+	border: solid #C530E8 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #9D9DE8;
+	text-align: center;
+	padding: 6px;
+	border: solid #C530E8 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #8D41FF 1px;
+}
+
+img {
+	border: solid #3B2E36 2px;
+	display: block;
+}
+
+iframe {
+	border: solid #C530E8 1px;
+	padding: 8px;
+	margin: 8px;
+}

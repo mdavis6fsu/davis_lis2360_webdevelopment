@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document created by Marie Davis, Spring 2019*/
+
+body {
+	font-family: Verdana, Arial, Times, serif;
+	line-height: 1.3em;
+	color: #000fff;
+	background-color: #9D9DE8;
+	padding: 0 30px;
+	margin: 10px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	
+	color: #3B2E36;
+	padding: 0 30px;
+	}
+h1 {
+	text-align: center;
+	font-size: 35px;
+	padding: 3px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+
+}
+h2 {
+	font-size: 18px;
+	padding: 6px;
+	letter-spacing: 0.2em;
+	background-color: #8D41FF;
+}
+h3 {
+	font-size: 15px;
+	letter-spacing: 0.2em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #3486FF;
+	padding: 4px 0;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #3486FF;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bold;
+	color: #9B9744;
+	text-decoration: underline;
+}
+a:hover {
+	color: #C530E8;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #9D9DE8 1px;
+	padding: 0 30px;
+}
+td {
+	padding: 6px;
+	border: solid #C530E8 1px;
+}
+th {
+	font-weight: bolder;
+	background-color: #9D9DE8;
+	text-align: center;
+	padding: 6px;
+	border: solid #C530E8 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #8D41FF 1px;
+}
+
+img {
+	border: solid #3B2E36 2px;
+	display: block;
+	margin: .5em;
+
+}
+
+iframe {
+	border: solid #C530E8 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid #8D41FF;
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+	letter-spacing: inherit;
+	font-size: 14px
+	
+}
+#content {
+	width: 650px;
+	padding: 0px;
+	text-align: left;
+	font-size: 12px;
+	float: left;
+	
+}
+#sidebar {
+	width: 220px;
+	margin-top: 30px;
+	float: left;
+	font-size: 10px;
+	font-style: italic;
+	padding: 5px;
+	border: 1px solid #8D41FF;
+	border-radius: 6px;
+	box-shadow: 10px 10px 5px #8D41FF;
+}
+
+#footer {
+	width: 100%;
+	padding: 0px;
+	font-size: 10px;
+	clear: both;
+	border-top: 1px solid #8D41FF;
+}
+
+
